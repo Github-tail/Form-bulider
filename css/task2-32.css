@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+.createForm{
+	border: 1px solid black;
+	width: 400px;
+	height: 200px;
+	margin: 40px;
+	background-color: #ccc;
+}
+.header{
+	border: 1px solid green;
+	font-size: 20px;
+	background-color: darkgoldenrod;
+	color: white;
+	text-align: center;
+}
+.choseType{
+	background-color: #23527B;
+	border: 1px solid #23527B;
+	width: 398px;
+	height: 20px;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+
+.autoStyle{
+	margin: 20px;
+	text-align: center;
+}
+#causeForm{
+	font-size: 16px;
+	color: white;
+	background-color: #4169e1;
+	border: 1px solid #4169e1;
+	width: 300px;
+	margin-left: 50px;
+	margin-top: 45px;
+	cursor: pointer;
+}
+table {
+	position:relative;
+	margin: 30px;
+	width: 1200px;
+}
+table td {
+	position: relative;
+	vertical-align: top;
+	padding: 5px 10px;
+}
+table tr td:first-child {
+	width: 100px;
+	line-height: 40px;
+	text-align: right;
+}
+table tr td+td input {
+	display: block;
+	width: 520px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+table tr td+td input:focus {
+	box-shadow: 1px 1px 3px blue;
+}
+#submit {
+	padding: 10px;
+	position: absolute;
+	right: 50%;
+	width: 80px;
+	height: 40px;
+	color: #fff;
+	background-color: #2f79ba;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#submit:hover {
+	background-color: #23527b;
+}
+span {
+	color: #aaa;
+	font-size: 14px;
+}
