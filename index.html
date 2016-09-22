@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>task2-32</title>
+		<link rel="stylesheet" href="css/task2-32.css" />
+	</head>
+	<body>
+		<div class="createForm">
+			<div class="header">表单自动生成器</div>
+			<div class="choseType">
+				<input type="checkbox" name="formList" id="nameList"><label for="nameList">Add_名称</label>
+				<input type="checkbox" name="formList" id="passwordList"><label for="passwordList">Add_密码</label>
+				<input type="checkbox" name="formList" id="emailList"><label for="emailList">Add_邮箱</label>
+				<input type="checkbox" name="formList" id="phoneList"><label for="phoneList">Add_手机</label>
+			</div>
+			<div class="autoStyle">
+				<input type="radio" name="style" id="style1" value="style1"><label for="style1">表单样式一</label>
+				<input type="radio" name="style" id="style2" value="style2"><label for="style2">表单样式二</label>
+			</div>
+			<input type="button" value="生成表单" id="causeForm">
+		</div>
+		<form method="post" action="">
+			<table id="form">	
+			</table>
+		</form>
+		<script type="text/javascript" src="js/task2-32.js" ></script>
+	</body>
+</html>
